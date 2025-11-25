@@ -9,7 +9,7 @@ const PORT = 3000
 const hostname = 'localhost'
 
 const BAUD_RATE = 9600
-const SERIAL_PORT = "COM8"
+const SERIAL_PORT = "COM9"
 
 //------------------config de Middleware
 app.use(express.urlencoded({extended: true}))
